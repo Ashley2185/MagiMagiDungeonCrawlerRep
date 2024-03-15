@@ -45,7 +45,7 @@
     {"id":{"name":"Black","path":"sprites/Black/Black.yy",},},
     {"id":{"name":"obj_wand","path":"objects/obj_wand/obj_wand.yy",},},
     {"id":{"name":"Brick","path":"sprites/Brick/Brick.yy",},},
-    {"id":{"name":"obj_iceshard","path":"objects/obj_iceshard/obj_iceshard.yy",},},
+    {"id":{"name":"obj_magibullet","path":"objects/obj_magibullet/obj_magibullet.yy",},},
     {"id":{"name":"Wand","path":"sprites/Wand/Wand.yy",},},
     {"id":{"name":"MagiFire","path":"sprites/MagiFire/MagiFire.yy",},},
     {"id":{"name":"Boss","path":"sprites/Boss/Boss.yy",},},

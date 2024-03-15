@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_iceshard",
+  "name": "obj_magibullet",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
