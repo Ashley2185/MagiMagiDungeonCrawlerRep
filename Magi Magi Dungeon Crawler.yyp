@@ -58,6 +58,7 @@
     {"id":{"name":"Boss","path":"sprites/Boss/Boss.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Beam","path":"sprites/Beam/Beam.yy",},},
+    {"id":{"name":"BossHit","path":"sprites/BossHit/BossHit.yy",},},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
     {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},},
     {"id":{"name":"obj_hpvial","path":"objects/obj_hpvial/obj_hpvial.yy",},},

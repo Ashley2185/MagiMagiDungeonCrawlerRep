@@ -27,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Beam",
+    "path": "sprites/Beam/Beam.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

@@ -38,6 +38,7 @@
     {"name":"Boss","order":6,"path":"sprites/Boss/Boss.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
     {"name":"Beam","order":12,"path":"sprites/Beam/Beam.yy",},
+    {"name":"BossHit","order":13,"path":"sprites/BossHit/BossHit.yy",},
     {"name":"obj_hpvial","order":1,"path":"objects/obj_hpvial/obj_hpvial.yy",},
     {"name":"background","order":7,"path":"sprites/background/background.yy",},
     {"name":"DungeonEntrance","order":2,"path":"rooms/DungeonEntrance/DungeonEntrance.yy",},
