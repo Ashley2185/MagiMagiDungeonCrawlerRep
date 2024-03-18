@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_brick",
-  "eventList": [],
+  "name": "obj_antimagibullet",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Environment",
-    "path": "folders/Objects/Environment.yy",
+    "name": "Powers",
+    "path": "folders/Objects/Powers.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "Brick",
-    "path": "sprites/Brick/Brick.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
