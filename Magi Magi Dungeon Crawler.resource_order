@@ -21,6 +21,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"Game Manager","order":9,"path":"folders/Objects/Game Manager.yy",},
+    {"name":"JSON","order":10,"path":"folders/Objects/JSON.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"CocoaHealth","order":17,"path":"sprites/CocoaHealth/CocoaHealth.yy",},

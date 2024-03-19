@@ -1,0 +1,34 @@
+[
+ {
+   "Ability Name": "Magibullet",
+   "Affinity": "Player",
+   "Type": "Attack",
+   "Damage": 1,
+   "Element": "Cosmic",
+   "Level": 1
+ },
+ {
+   "Ability Name": "Beam",
+   "Affinity": "Enemy",
+   "Type": "Attack",
+   "Damage": 1,
+   "Element": "Flame",
+   "Level": 1
+ },
+ {
+   "Ability Name": "Ice Layser",
+   "Affinity": "Enemy",
+   "Type": "Trap",
+   "Damage": 1,
+   "Element": "Freeze",
+   "Level": 1
+ },
+ {
+   "Ability Name": "New Ability",
+   "Affinity": "",
+   "Type": "",
+   "Damage": null,
+   "Element": "",
+   "Level": null
+ }
+]

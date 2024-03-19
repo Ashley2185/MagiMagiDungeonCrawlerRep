@@ -32,8 +32,11 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Game Manager","folderPath":"folders/Objects/Game Manager.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"JSON","folderPath":"folders/Objects/JSON.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Magi Magi Dungeon Crawler Beta Ability Sheet.json","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -41,6 +44,7 @@
   },
   "resources": [
     {"id":{"name":"CocoaHealth","path":"sprites/CocoaHealth/CocoaHealth.yy",},},
+    {"id":{"name":"JSON","path":"objects/JSON/JSON.yy",},},
     {"id":{"name":"obj_chp2","path":"objects/obj_chp2/obj_chp2.yy",},},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},},
     {"id":{"name":"Cocoa","path":"sprites/Cocoa/Cocoa.yy",},},
@@ -100,12 +104,12 @@
     {"id":{"name":"Phase1","path":"rooms/Phase1/Phase1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
     {"roomId":{"name":"Phase1","path":"rooms/Phase1/Phase1.yy",},},
     {"roomId":{"name":"Phase2","path":"rooms/Phase2/Phase2.yy",},},
     {"roomId":{"name":"Phase3","path":"rooms/Phase3/Phase3.yy",},},
     {"roomId":{"name":"Ending","path":"rooms/Ending/Ending.yy",},},
     {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
-    {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

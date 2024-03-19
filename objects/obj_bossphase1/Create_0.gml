@@ -1,5 +1,3 @@
-//change rooms to mimic phase changes, phase 2 is bullets come faster and obstabcles spawn, stage 3 is even faster bullets and 3 enemy minions coming to get you
-
 //invincibility timers
 invicible = false;
 invicible_timer = 0;

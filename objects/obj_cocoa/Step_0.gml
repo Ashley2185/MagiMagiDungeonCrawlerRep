@@ -5,6 +5,12 @@ if (keyboard_check(ord("W")) && !place_meeting(x,y-8,obj_barrier))
 	y -= cocoa_speed;
 }
 
+else
+{
+	sprite_index = Cocoa;
+}
+
+
 //can move down until it hits wall
 if (keyboard_check(ord("S")) && !place_meeting(x,y+8,obj_barrier))
 {
@@ -52,10 +58,6 @@ if (place_meeting(x,y,obj_beam) && !invicible)
 	audio_play_sound(cocoa_hit,3,false);
 }
 
-else
-{
-	sprite_index = Cocoa;
-}
 
 if (place_meeting(x,y,obj_layser) && !invicible)
 {
@@ -64,11 +66,6 @@ if (place_meeting(x,y,obj_layser) && !invicible)
 	invicible = true;
 	sprite_index = CocoaHit;
 	audio_play_sound(cocoa_hit,3,false);
-}
-
-else
-{
-	sprite_index = Cocoa;
 }
 
 
@@ -81,10 +78,6 @@ if (place_meeting(x,y,obj_henchmen) && !invicible)
 	audio_play_sound(cocoa_hit,3,false);
 }
 
-else
-{
-	sprite_index = Cocoa;
-}
 
 //cooldown
 if (invicible)
