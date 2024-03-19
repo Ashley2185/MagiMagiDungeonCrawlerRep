@@ -30,7 +30,7 @@ if (keyboard_check(ord("A")) && !place_meeting(x-20,y,obj_barrier))
 
 //ATTACKING
 //fire!
-if mouse_check_button_pressed(mb_left) && !firing
+if mouse_check_button_pressed(mb_left)
 {
 	show_debug_message("Fire!")
 	
@@ -39,25 +39,93 @@ if mouse_check_button_pressed(mb_left) && !firing
 	magibullet.direction = point_direction(obj_cocoa.x,obj_cocoa.y,mouse_x,mouse_y);
 	magibullet.image_angle =magibullet.direction;
 	
-	firing = true;
-}
-
-//cooldown
-if (firing)
-{
-	firing_timer++;
-	if (firing_timer > cooldown)
-	{
-		firing = false;
-		firing_timer = 0;
-	}
+	audio_play_sound(magicast,3,false);
 }
 
 //HURT AND LOSE CONDITION
+if (place_meeting(x,y,obj_beam) && !invicible)
+{
+	show_debug_message("Hit!");
+	cocoa_hp -= 1;
+	invicible = true;
+	sprite_index = CocoaHit;
+	audio_play_sound(cocoa_hit,3,false);
+}
+
+else
+{
+	sprite_index = Cocoa;
+}
+
+if (place_meeting(x,y,obj_layser) && !invicible)
+{
+	show_debug_message("Hit by layser!");
+	cocoa_hp -= 1;
+	invicible = true;
+	sprite_index = CocoaHit;
+	audio_play_sound(cocoa_hit,3,false);
+}
+
+else
+{
+	sprite_index = Cocoa;
+}
 
 
+if (place_meeting(x,y,obj_henchmen) && !invicible)
+{
+	show_debug_message("Hit by hench!");
+	cocoa_hp -= .5;
+	invicible = true;
+	sprite_index = CocoaHit;
+	audio_play_sound(cocoa_hit,3,false);
+}
 
-//VFX
+else
+{
+	sprite_index = Cocoa;
+}
+
+//cooldown
+if (invicible)
+{
+	invicible_timer++;
+	if (invicible_timer > invicible_duration)
+	{
+		invicible = false;
+		invicible_timer = 0;
+	}
+}
+
+//meters going down as you lose hp
+if cocoa_hp = 4
+{
+	instance_destroy(obj_chp5)
+}
+
+if cocoa_hp = 3
+{
+	instance_destroy(obj_chp4)
+}
+
+if cocoa_hp = 2
+{
+	instance_destroy(obj_chp3)
+}
+
+if cocoa_hp = 1
+{
+	instance_destroy(obj_chp2)
+}
+
+if cocoa_hp = 0
+{
+	instance_destroy(obj_chp1)
+	show_debug_message("dead")
+	room_goto(GameOver)
+}
+
+
 
 
 
